@@ -20,9 +20,7 @@ class AIService {
     localStorage.setItem('gemini_api_key', apiKey);
   }
 
-  getApiKey(): string | null {
-    return this.apiKey;
-  }
+
 
   hasApiKey(): boolean {
     return !!this.apiKey;
